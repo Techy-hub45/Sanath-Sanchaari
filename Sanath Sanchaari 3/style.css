@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+/* Apply the Dancing Script font globally or selectively */
+.dancing-script {
+    font-family: 'Dancing Script', cursive;
+}
+
+/* Background for Welcome Page (Replace with your nature image URL) */
+.login-bg {
+    background-image: url('leafbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Background for Home Page and other content pages */
+.home-bg {
+    background-image: url('leafbackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Custom CSS for the advanced hover shadow (for cards and buttons) */
+.hover-shadow-lg:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
